@@ -9,7 +9,7 @@
 	Hello world!  
 </h1>
 
-<h1>공수정</h1>
+<h1>GONG SU JEONG</h1>
 <h3>LIM SEUNG JAE</h3>
 </body>
 </html>
