@@ -1,0 +1,116 @@
+<DB>
+1. 개인회원 Individual_member
+	아이디		Individual_id		string
+	비밀번호		password		string
+	주민번호		identity Number		string
+	주소		address			string
+	이메일		mail			string
+	전화번호		phone			string
+	이름 		name			string
+
+2. 기업회원 Enterprise_member
+	아이디		enterprise_id		string
+	기업명		name			string
+	사업자번호		buisness_number		string
+	담당자 전화번호	manager_number		string
+	주소		address			string
+      	담당자 이메일	manager_mail		string
+        기업 홈페이지	homepage		string
+        대표자 이름		representation_name	string
+        사업 내용		contents		string
+        채용횟수		hire_count		int
+        가입날짜		join_date		timestamp
+
+3. 상품 Product
+	아이디		product_id		String
+	이름		name			String
+	가격		price			int
+	기간		term			timestamp
+
+4. 결제 Payment
+	아이디		payment_id		string
+    	결제 날짜		date			timestamp
+
+5. 이력서 Resume
+	아이디		resume_id		int(오토)
+	제목		title			String
+	내용		contents		String
+	작성 날짜		creation_date		timestamp
+	카테고리 대		category_L		String
+	카테고리 중		category_M		String
+	구직상태		state_flag		Boolean
+	지역		area			String
+	희망 급여 종류	salary_type		String
+	희망 급여 금액	salary_amount		int
+	근무 기간		work_term		String
+	근무 시간		work_time		int	
+	근무 요일		work_day		String
+
+
+6.인재게시판 Talent_board		
+	아이디		Talent_board_id		int(Auto)
+	제목 		title			String
+	내용		contents		String
+	날짜		date			timestamp
+
+7.인재_스크랩 Talent_scrap
+	아이디 		Talent_scrap_id		int(Auto)
+	스크랩 날짜   	date 			timestamp
+
+8. 기업 연락 ApplyResume
+	아이디		ApplyResume_id		int(오토)
+	스크랩 날짜		scrap_date		timestamp
+	 
+9. 모집글 Recruit
+	아이디		recruit_id		int(오토)
+	제목		title			String
+	내용		contents		String
+	작성 날짜		creation_date		timestamp
+	카테고리 대		category_L		String
+	카테고리 중		category_M		String
+	모집상태		state			Boolean
+	지역		area			String
+	희망 급여 종류	salary_type		String
+	희망 급여 금액	salary_amount		int
+	근무 기간		work_term		String
+	근무 시간		work_time		int	
+	근무 요일		work_day		String
+
+
+10.공고게시판 Announce_board 	
+    	아이디	 	Announce_board_id	int(Auto)
+	제목	   	title			String
+	내용	   	contents 		Striing
+	날짜	   	date 			timestamp
+
+11.공고스크랩 Announce_scrap
+	아이디  		Announce_scrap_id	int(Auto)
+	스크랩 날짜   	date 			timestamp
+
+12. 공고 지원 ApplyRecruit
+	아이디		ApplyRecruit_id		int(오토)
+	스크랩 날짜		scrap_date		timestamp
+
+13. 알바 후기 Alba_review
+	아이디 alba_review_id	                String
+	제목 review_title                        String
+	내용 revirw_contents                     String
+	날짜 review_date                         timestamp
+
+
+14. 댓글 Review_comment
+	아이디 review_comment_id			String
+	날짜 review_comment_date			timestamp
+	내용 contents				String
+
+15. 경력	career
+	아이디		career			int(오토)
+	기업이름		Company 		String
+	근무 시작 날자	workStartDate		date
+	근무 마지막 날자	workEndDate		date
+	맡은 업무		Task			String
+		
+
+	
+
+
