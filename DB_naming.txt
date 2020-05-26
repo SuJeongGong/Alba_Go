@@ -2,7 +2,7 @@
 1. 개인회원 Individual_member
 	아이디		Individual_id		string
 	비밀번호		password		string
-	주민번호		identity Number		string
+	주민번호		identity_Number		string
 	주소		address			string
 	이메일		mail			string
 	전화번호		phone			string
