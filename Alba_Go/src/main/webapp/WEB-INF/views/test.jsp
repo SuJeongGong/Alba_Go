@@ -14,6 +14,7 @@
 =======
 <h1>GONG SU JEONG</h1>
 <h3>LIM SEUNG JAE</h3>
+<h3>LIM SEUNG JAE2</h3>
 <h4>LEE YAE SEUL</h4>
 <h5>SONG WON JOON</h5>
 <h5>수정이 메롱</h5>
