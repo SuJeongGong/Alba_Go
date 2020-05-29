@@ -9,5 +9,9 @@ public class MyController {
 	public String main() {
 		return "/main";
 	}
+	@RequestMapping("/test")
+	public String test() {
+		return "/test";
+	}
 	
 }
