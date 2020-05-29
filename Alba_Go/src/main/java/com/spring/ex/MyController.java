@@ -10,4 +10,5 @@ public class MyController {
 		
 		return "/main";
 	}
+	
 }
