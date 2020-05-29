@@ -9,4 +9,5 @@ public class MyController {
 	public String main() {
 		return "/main";
 	}
+	
 }
