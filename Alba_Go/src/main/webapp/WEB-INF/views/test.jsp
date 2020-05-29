@@ -19,6 +19,7 @@
 <h5>SONG WON JOON</h5>
 <h5>help me....</h5>
 <p>i'm dying</p>
+<p>나 진짜 고치느라 힘들었으니까 커밋해야지,,</p>
 >>>>>>> branch 'master' of https://github.com/SuJeongGong/Alba_Go
 </body>
 </html>
