@@ -44,7 +44,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-tachometer-alt"></i><!-- 대시보드라고 써져있는 메뉴-->
-          <span>메뉴1</span></a>
+          <span>메뉴</span></a>
       </li>
 
       <!-- Divider -->
@@ -52,82 +52,179 @@
 
       <!-- Heading -->
       <div class="sidebar-heading">
-        알바공고 
+        알바정보
       </div>
 
       <!-- 네비게이션 -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#enterprise_area" aria-expanded="true"
+          aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cog"></i>
-          <span>지역별</span>
+          <span>지역</span>
         </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="enterprise_area" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">수도권</h6><!-- 드롭다운 열었을때 흐릿한 글씨로 설명 된것 -->
-            <a class="collapse-item" href="buttons.html">서울</a><!--드롭다운 열었을때 진한 글씨로 클릭 가능한것-->
-            <a class="collapse-item" href="cards.html">의정부</a>
+            <!-- <h6 class="collapse-header">경기도</h6>드롭다운 열었을때 흐릿한 글씨로 설명 된것 -->
+            <a class="collapse-item" href="">서울</a>
+            <a class="collapse-item" href="">경기</a>
+            <a class="collapse-item" href="">인천</a>
+            <a class="collapse-item" href="">부산</a>
+            <a class="collapse-item" href="">대구</a>
+            <a class="collapse-item" href="">대전</a>
+            <a class="collapse-item" href="">경남</a>
+            <a class="collapse-item" href="">전남</a>
+            <a class="collapse-item" href="">충남</a>
+            <a class="collapse-item" href="">광주</a>
+            <a class="collapse-item" href="">울산</a>
+            <a class="collapse-item" href="">경북</a>
+            <a class="collapse-item" href="">전북</a>
+            <a class="collapse-item" href="">충북</a>
+            <a class="collapse-item" href="">강원</a>
+            <a class="collapse-item" href="">제주</a>
+            <a class="collapse-item" href="">전국</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#enterprise_category" aria-expanded="true"
+          aria-controls="collapseUtilities">
           <i class="fas fa-fw fa-wrench"></i>
-          <span>카테고리별</span>
+          <span>카테고리</span>
         </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+        <div id="enterprise_category" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">카테고리별</h6>
-            <a class="collapse-item" href="utilities-color.html">음식점/서빙</a>
-            <a class="collapse-item" href="utilities-border.html">생산/기술/건설</a>
-            <a class="collapse-item" href="utilities-animation.html">일반 서비스/ 매장관리</a>
-            <a class="collapse-item" href="utilities-other.html">교사/강사</a>
+            <a class="collapse-item" href="utilities-color.html">외식/음료</a>
+            <a class="collapse-item" href="utilities-border.html">유통/판매</a>
+            <a class="collapse-item" href="utilities-animation.html">문화/여가/생활</a>
+            <a class="collapse-item" href="utilities-other.html">서비스</a>
+            <a class="collapse-item" href="utilities-other.html">사무직</a>
+            <a class="collapse-item" href="utilities-color.html">고객상담/리서치</a>
+            <a class="collapse-item" href="utilities-border.html">생산/건설/노무</a>
+            <a class="collapse-item" href="utilities-animation.html">교육/강사</a>
+            <a class="collapse-item" href="utilities-other.html">디자인</a>
+            <a class="collapse-item" href="utilities-other.html">미디어</a>
             <a class="collapse-item" href="utilities-other.html">운전/배달</a>
+            <a class="collapse-item" href="utilities-other.html">병원/간호/연구</a>
+            <a class="collapse-item" href="utilities-other.html">IT/컴퓨터</a>
           </div>
-        </div>
       </li>
 
-      <!-- Divider -->
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#enterprise_thema" aria-expanded="true"
+          aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-wrench"></i>
+          <span>테마</span>
+        </a>
+        <div id="enterprise_thema" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">테마</h6>
+            <a class="collapse-item" href="utilities-color.html">주휴수당</a>
+            <a class="collapse-item" href="utilities-border.html">대학생</a>
+            <a class="collapse-item" href="utilities-animation.html">주부</a>
+            <a class="collapse-item" href="utilities-other.html">청소년</a>
+            <a class="collapse-item" href="utilities-other.html">외국인</a>
+            <a class="collapse-item" href="utilities-other.html">장년</a>
+            </div>
+          
+          </li>
+
+       <!-- Divider -->
       <hr class="sidebar-divider">
 
-      <!-- Heading -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Heading -->
       <div class="sidebar-heading">
-        인재공고
+              인재정보
       </div>
 
-      <!-- Nav Item - Pages Collapse Menu -->
+            <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#individual_area" aria-expanded="true"
+          aria-controls="collapsePages">
           <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
+          <span>지역별</span>
         </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div id="individual_area" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
+            <a class="collapse-item" href="">서울</a>
+            <a class="collapse-item" href="">경기</a>
+            <a class="collapse-item" href="">인천</a>
+            <a class="collapse-item" href="">부산</a>
+            <a class="collapse-item" href="">대구</a>
+            <a class="collapse-item" href="">대전</a>
+            <a class="collapse-item" href="">경남</a>
+            <a class="collapse-item" href="">전남</a>
+            <a class="collapse-item" href="">충남</a>
+            <a class="collapse-item" href="">광주</a>
+            <a class="collapse-item" href="">울산</a>
+            <a class="collapse-item" href="">경북</a>
+            <a class="collapse-item" href="">전북</a>
+            <a class="collapse-item" href="">충북</a>
+            <a class="collapse-item" href="">강원</a>
+            <a class="collapse-item" href="">제주</a>
+            <a class="collapse-item" href="">전국</a>
           </div>
         </div>
       </li>
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#individual_category" aria-expanded="true"
+          aria-controls="collapsePages">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>카테고리</span>
+        </a>
+        <div id="individual_category" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <h6 class="collapse-header">카테고리별</h6>
+            <a class="collapse-item" href="utilities-color.html">외식/음료</a>
+            <a class="collapse-item" href="utilities-border.html">유통/판매</a>
+            <a class="collapse-item" href="utilities-animation.html">문화/여가/생활</a>
+            <a class="collapse-item" href="utilities-other.html">서비스</a>
+            <a class="collapse-item" href="utilities-other.html">사무직</a>
+            <a class="collapse-item" href="utilities-color.html">고객상담/리서치</a>
+            <a class="collapse-item" href="utilities-border.html">생산/건설/노무</a>
+            <a class="collapse-item" href="utilities-animation.html">교육/강사</a>
+            <a class="collapse-item" href="utilities-other.html">디자인</a>
+            <a class="collapse-item" href="utilities-other.html">미디어</a>
+            <a class="collapse-item" href="utilities-other.html">운전/배달</a>
+            <a class="collapse-item" href="utilities-other.html">병원/간호/연구</a>
+            <a class="collapse-item" href="utilities-other.html">IT/컴퓨터</a>
+          </div>
+        </div>
       </li>
+
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+<div class="sidebar-heading">
+        커뮤니티
+</div>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
         <a class="nav-link" href="tables.html">
           <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
+          <span>알바후기</span></a>
       </li>
 
       <!-- Divider -->
