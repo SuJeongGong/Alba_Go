@@ -19,4 +19,9 @@ public class MyController {
 		return "/Mypage_Individual";
 	}
 	
+	@RequestMapping("/Mypage_enterprise")
+	public String Mypage_enterprise() {
+		return "/Mypage_enterprise";
+	}
+	
 }
