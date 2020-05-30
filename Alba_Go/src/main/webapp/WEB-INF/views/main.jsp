@@ -32,7 +32,7 @@
 							<div class="card-header py-3">
                  				<h6 class="m-0 font-weight-bold text-primary">동네 알바</h6>
                 			</div>
-                      			 <div class="card-body">
+                      		<div class="card-body">
 									<a class="collapse-item" href="">서울</a>
 						            <a class="collapse-item" href="">경기</a>
 						            <a class="collapse-item" href="">인천</a>
@@ -50,7 +50,7 @@
 						            <a class="collapse-item" href="">강원</a>
 						            <a class="collapse-item" href="">제주</a>
 						            <a class="collapse-item" href="">전국</a>
-                            	</div>
+                           	</div>
                   		</div>
                   		
                   		<!-- 2번째 카드 -->
@@ -311,6 +311,8 @@
 			</div><!-- 끝 main 본문을 한 줄로 묶기 -->	
 			</div><!-- 끝 main 본문  -->
    		</div><!-- 끝 main -->
+   		<!-- footer -->
+		<%@ include file="./footer.jsp" %>
    </div><!-- 끝 content wrapper -->
 </div><!-- 끝  wrapper -->
 </body>
