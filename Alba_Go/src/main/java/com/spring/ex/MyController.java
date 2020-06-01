@@ -13,6 +13,7 @@ public class MyController {
 	public String test() {
 		return "/test";
 	}
+//	¿·∏∏
 	
 	@RequestMapping("/Mypage_Individual")
 	public String Mypage_Individual() {
