@@ -32,7 +32,7 @@
 							<div class="card-header py-3">
                  				<h6 class="m-0 font-weight-bold text-primary">동네 알바</h6>
                 			</div>
-                      		<div class="card-body">
+                      		<div class="card-body">                            
 									<a class="collapse-item" href="">서울</a>
 						            <a class="collapse-item" href="">경기</a>
 						            <a class="collapse-item" href="">인천</a>
