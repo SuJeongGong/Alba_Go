@@ -312,7 +312,7 @@
 			</div><!-- 끝 main 본문  -->
    		</div><!-- 끝 main -->
    		<!-- footer -->
-		<%@ include file="./footer.jsp" %>
+		<%@ include file="./Footer.jsp" %>
    </div><!-- 끝 content wrapper -->
 </div><!-- 끝  wrapper -->
 </body>
