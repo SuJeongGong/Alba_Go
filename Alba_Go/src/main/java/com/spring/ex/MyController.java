@@ -31,5 +31,21 @@ public class MyController {
 	public String Account_enterprise() {
 		return "/Account_enterprise";
 	}
+	@RequestMapping("/Profile_writer")
+	public String Profile_writer() {
+		return "/Profile_writer";
+	}
+	@RequestMapping("/PageSet")
+	public String PageSet() {
+		return "/PageSet";
+	}
+	@RequestMapping("/Profile_management")
+	public String Profile_management() {
+		return "/Profile_management";
+	}
+	@RequestMapping("/Talent_infomation")
+	public String Talent_infomation() {
+		return "/Talent_infomation";
+	}
 	
 }
