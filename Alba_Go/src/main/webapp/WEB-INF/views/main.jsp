@@ -3,163 +3,317 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>SB Admin 2 - Dashboard</title>
-
-  <!-- Custom fonts for this template-->
-  <link href="<c:url value="/resources/vendor/fontawesome-free/css/all.min.css" />" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template-->
-  <link href="<c:url value="/resources/css/sb-admin-2.min.css" />" rel="stylesheet">
-
+<meta charset="UTF-8">
+<title>main</title>
 </head>
+<body>
+<div id="wrapper">
+	<!-- 사이드 바 -->
+	<%@ include file="./Sidebar.jsp" %>
+	
+	<!-- content wrapper -->
+	<div id="content-wrapper" class="d-flex flex-column">
+		<!-- main -->
+   		<div id ="content">
+   			<!-- Topbar -->
+			<%@ include file="./Topbar.jsp" %>
+			
+			<!-- main 본문  -->
+			<div class="container-fluid">
+			<!-- main 본문을 한 줄로 묶기 -->
+			<div class="row">
+				<!-- 왼쪽 -->
+				<div class = "col-xl-9">
+					<!-- 왼쪽 1번째 줄  -->
+					<div class="row">
+						<!-- 1번째 카드 -->
+						<div class="card col-xl-6 shadow mb-4">
+							<div class="card-header py-3">
+                 				<h6 class="m-0 font-weight-bold text-primary">동네 알바</h6>
+                			</div>
+                      		<div class="card-body">
+									<a class="collapse-item" href="">서울</a>
+						            <a class="collapse-item" href="">경기</a>
+						            <a class="collapse-item" href="">인천</a>
+						            <a class="collapse-item" href="">부산</a>
+						            <a class="collapse-item" href="">대구</a>
+						            <a class="collapse-item" href="">대전</a>
+						            <a class="collapse-item" href="">경남</a>
+						            <a class="collapse-item" href="">전남</a>
+						            <a class="collapse-item" href="">충남</a>
+						            <a class="collapse-item" href="">광주</a>
+						            <a class="collapse-item" href="">울산</a>
+						            <a class="collapse-item" href="">경북</a>
+						            <a class="collapse-item" href="">전북</a>
+						            <a class="collapse-item" href="">충북</a>
+						            <a class="collapse-item" href="">강원</a>
+						            <a class="collapse-item" href="">제주</a>
+						            <a class="collapse-item" href="">전국</a>
+                           	</div>
+                  		</div>
+                  		
+                  		<!-- 2번째 카드 -->
+						<div class="card col-xl-6 shadow mb-4">
+                          <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">단기 알바</h6>
+                          </div>
+                          <div class="card-body">
+						    <a class="collapse-item" href="">1일</a>
+						    <a class="collapse-item" href="">1주일이내</a>
+						    <a class="collapse-item" href="">1개월이내</a>
+						    <a class="collapse-item" href="">오늘</a>
+						    <a class="collapse-item" href="">단시간</a>
+						    <a class="collapse-item" href="">급구</a>
+						 </div>
+                       </div>
+					
+					</div><!--끝 왼쪽 1번째 줄  -->
+					
+					<!-- 왼쪽 2번째 줄  -->
+					<div class="row">
+						
+						<!-- 1번째 카드 -->
+						<div class="card col-xl-6 shadow mb-4">
+                          <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">테마 알바</h6>
+                          </div>
+                          <div class="card-body">
+					            <a class="collapse-item" href="utilities-color.html">주휴수당</a>
+					            <a class="collapse-item" href="utilities-border.html">대학생</a>
+					            <a class="collapse-item" href="utilities-animation.html">주부</a>
+					            <a class="collapse-item" href="utilities-other.html">청소년</a>
+					            <a class="collapse-item" href="utilities-other.html">외국인</a>
+					            <a class="collapse-item" href="utilities-other.html">장년</a>
+                          </div>
+                        </div>
+                  		
+                  		<!-- 2번째 카드 -->
+						<div class="card col-xl-6 shadow mb-4">
+                          <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">카테고리</h6>
+                          </div>
+                          <div class="card-body">
+					            <a class="collapse-item" href="utilities-color.html">외식/음료</a>
+					            <a class="collapse-item" href="utilities-border.html">유통/판매</a>
+					            <a class="collapse-item" href="utilities-animation.html">문화/여가/생활</a>
+					            <a class="collapse-item" href="utilities-other.html">서비스</a>
+					            <a class="collapse-item" href="utilities-other.html">사무직</a>
+					            <a class="collapse-item" href="utilities-color.html">고객상담/리서치</a>
+					            <a class="collapse-item" href="utilities-border.html">생산/건설/노무</a>
+					            <a class="collapse-item" href="utilities-animation.html">교육/강사</a>
+					            <a class="collapse-item" href="utilities-other.html">디자인</a>
+					            <a class="collapse-item" href="utilities-other.html">미디어</a>
+					            <a class="collapse-item" href="utilities-other.html">운전/배달</a>
+					            <a class="collapse-item" href="utilities-other.html">병원/간호/연구</a>
+					            <a class="collapse-item" href="utilities-other.html">IT/컴퓨터</a>  
+                          </div>
+                        </div>
+						
+					</div><!--끝 왼쪽 2번째 줄  -->
+					
+					<!-- 왼쪽 3번째 줄  -->
+					<div class="row">
+						
+						<!-- 광고 1 -->
+                  		<div class="card col-xl-3 shadow mb-4">
+	                        <div class="card-header py-3">
+	                          <h6 class="m-0 font-weight-bold text-primary">광고 글 제목</h6>
+	                        </div>
+	                        <div class="card-body">
+	                          <div>글 내용</div>
+	                          <div>급여 관련</div>
+	                        </div>
+	                      </div>
+                      
+		                <!-- 광고 2 -->
+		               <div class="card col-xl-3 shadow mb-4">
+	                        <div class="card-header py-3">
+	                          <h6 class="m-0 font-weight-bold text-primary">광고 글 제목</h6>
+	                        </div>
+	                        <div class="card-body">
+	                          <div>글 내용</div>
+	                          <div>급여 관련</div>
+	                        </div>
+                      	</div>
+						<!-- 광고 3 -->
+                  		<div class="card col-xl-3 shadow mb-4">
+	                        <div class="card-header py-3">
+	                          <h6 class="m-0 font-weight-bold text-primary">광고 글 제목</h6>
+	                        </div>
+	                        <div class="card-body">
+	                          <div>글 내용</div>
+	                          <div>급여 관련</div>
+	                        </div>
+	                    </div>
+		                <!-- 광고 4 -->
+		                <div class="card col-xl-3 shadow mb-4">
+	                        <div class="card-header py-3">
+	                          <h6 class="m-0 font-weight-bold text-primary">광고 글 제목</h6>
+	                        </div>
+	                        <div class="card-body">
+	                          <div>글 내용</div>
+	                          <div>급여 관련</div>
+	                        </div>
+                      	</div>
+		
+					</div><!--끝 왼쪽 3번째 줄  -->
+					
+					<!-- 왼쪽 4번째 줄  -->
+					<div class="row">
+						
+						 <!-- 알바후기 -->
+		                  <div class="col-xl-8 col-md-10 mb-4">
+                           <div class="card  shadow h-100 py-2">
+                             <div class="card-body">
+                              <div class="card-header py-3">
+                                <h6 class="m-0 font-weight-bold text-primary"><a href ="#">알바 토크</a></h6>
+                              </div>
+                              <table class="table table-hover">
+                                <tr>
+                                    <td><a href ="#">편의점 알바 후기</a></td>
+                                    <td><a href ="#">2020-02-08</a></td>
+                                  
+                                </tr>
+                                <tr>
+                                  <td><a href ="#">편의점 알바 후기</a></td>
+                                  <td><a href ="#">2020-02-08</a></td>
+                              </tr>
+                              <tr>
+                                <td><a href ="#">편의점 알바 후기</a></td>
+                                <td><a href ="#">2020-02-08</a></td>
+                            </tr>
+                            <tr>
+                              <td><a href ="#">편의점 알바 후기</a></td>
+                              <td><a href ="#">2020-02-08</a></td>
+                          </tr>
+                              </table>
+                             </div>
+                           </div>
+                         </div>
 
-<body id="page-top">
-
-  <!-- Page Wrapper -->
-  <div id="wrapper">
-
-    <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-      <!-- 알바고 라고 글씨 씌여있는곳 -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
-        </div>
-        <div class="sidebar-brand-text mx-3">Alba_GO<sup></sup></div>
-      </a>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider my-0">
-
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i><!-- 대시보드라고 써져있는 메뉴-->
-          <span>메뉴1</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        알바공고 
-      </div>
-
-      <!-- 네비게이션 -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>지역별</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">수도권</h6><!-- 드롭다운 열었을때 흐릿한 글씨로 설명 된것 -->
-            <a class="collapse-item" href="buttons.html">서울</a><!--드롭다운 열었을때 진한 글씨로 클릭 가능한것-->
-            <a class="collapse-item" href="cards.html">의정부</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-wrench"></i>
-          <span>카테고리별</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">카테고리별</h6>
-            <a class="collapse-item" href="utilities-color.html">음식점/서빙</a>
-            <a class="collapse-item" href="utilities-border.html">생산/기술/건설</a>
-            <a class="collapse-item" href="utilities-animation.html">일반 서비스/ 매장관리</a>
-            <a class="collapse-item" href="utilities-other.html">교사/강사</a>
-            <a class="collapse-item" href="utilities-other.html">운전/배달</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        인재공고
-      </div>
-
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Pages</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Login Screens:</h6>
-            <a class="collapse-item" href="login.html">Login</a>
-            <a class="collapse-item" href="register.html">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
-            <div class="collapse-divider"></div>
-            <h6 class="collapse-header">Other Pages:</h6>
-            <a class="collapse-item" href="404.html">404 Page</a>
-            <a class="collapse-item" href="blank.html">Blank Page</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Charts -->
-      <li class="nav-item">
-        <a class="nav-link" href="charts.html">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Charts</span></a>
-      </li>
-
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="tables.html">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Tables</span></a>
-      </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
-
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
-
-    </ul>
-    <!-- End of Sidebar -->
-
-  <!-- Bootstrap core JavaScript-->
-  <script src="<c:url value="/resources/vendor/jquery/jquery.min.js" />"></script>
-  <script src="<c:url value="/resources/vendor/bootstrap/js/bootstrap.bundle.min.js" />"></script>
-
-  <!-- Core plugin JavaScript-->
-  <script src="<c:url value="/resources/vendor/jquery-easing/jquery.easing.min.js" />"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="<c:url value="/resources/js/sb-admin-2.min.js" />"></script>
-
-  <!-- Page level plugins -->
-  <script src="<c:url value="/resources/vendor/chart.js/Chart.min.js" />"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="<c:url value="/resources/js/demo/chart-area-demo.js" />"></script>
-  <script src="<c:url value="/resources/js/demo/chart-pie-demo.js" />"></script>
-
+		                  <!-- 시급관련 -->
+		                  <div class="col-xl-4 col-md-10 mb-4">
+		                    <div class="card  shadow h-100 py-2">
+		                      <div class="card-body">
+		
+		                      </div>
+		                    </div>
+		                  </div>
+						
+					</div><!--끝 왼쪽 4번째 줄  -->
+					
+				</div><!--끝 왼쪽 -->
+				
+				
+				<!-- 오른쪽 -->
+				<div class = "col-xl-3">
+					<!-- 오른쪽 1번째 줄  -->
+					<div class="row">
+						<!-- 로그인관련 -->
+		                  <div class="col-xl-12 col-md-10 mb-4">
+		                    <div class="card  shadow h-100 py-2">
+		                      <div class="card-body">
+								<div class="form-group">
+								<form class="form-horizontal">
+									  <div class="form-group">
+									    <label for="inputEmail3" class="col-sm-12 control-label">ID</label>
+									    <div class="col-sm-10">
+									      <input type="email" class="form-control" id="inputEmail3" placeholder="ID">
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <label for="inputPassword3" class="col-sm-12 control-label">Password</label>
+									    <div class="col-sm-10">
+									      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <div class="checkbox">
+									        <label>
+									          <input type="checkbox"> Remember me
+									        </label>
+									      </div>
+									    </div>
+									  </div>
+									  <div class="form-group">
+									    <div class="col-sm-offset-2 col-sm-10">
+									      <button type="submit" class="btn btn-primary ">Sign in</button>
+									    </div>
+									  </div>
+									</form>
+  								</div>
+		                      </div>
+		                    </div>
+		                  </div>
+					</div><!--끝 오른쪽 1번째 줄  -->
+					
+					<!-- 오른쪽 2번째 줄  -->
+					<div class="row">
+						<!-- 순위관련 -->
+		                  <div class="col-xl-12 col-md-10 mb-4">
+		                    <div class="card  shadow h-100 py-2">
+		                      <div class="card-body">
+									<table class="table table-hover">
+			                            <thead>
+			                              TOP 공고글
+			                            </thead>
+			                            <tr>
+			                              <td>1</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>2</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>3</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>4</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>5</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>6</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>7</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>8</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>9</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            <tr>
+			                              <td>10</td>
+			                              <td><a href="#">글 제목</a></td>
+			                            </tr>
+			                            
+			                          </table>
+		                      </div>
+		                    </div>
+		                  </div>
+					</div><!--끝 오른쪽 2번째 줄  -->
+				
+				</div><!--끝 오른쪽 -->
+			
+			</div><!-- 끝 main 본문을 한 줄로 묶기 -->	
+			</div><!-- 끝 main 본문  -->
+   		</div><!-- 끝 main -->
+   		<!-- footer -->
+		<%@ include file="./footer.jsp" %>
+   </div><!-- 끝 content wrapper -->
+</div><!-- 끝  wrapper -->
 </body>
-
 </html>
