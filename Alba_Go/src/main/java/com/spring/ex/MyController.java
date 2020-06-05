@@ -47,5 +47,17 @@ public class MyController {
 	public String Talent_infomation() {
 		return "/Talent_infomation";
 	}
+	@RequestMapping("/Talent_scrap")
+	public String Talent_scrap() {
+		return "/Talent_scrap";
+	}
+	@RequestMapping("/Human_resource_info")
+	public String Human_resource_info() {
+		return "/Human_resource_info";
+	}
+	@RequestMapping("/Support_status")
+	public String Support_status() {
+		return "/Support_status";
+	}
 	
 }

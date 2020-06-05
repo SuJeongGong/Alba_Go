@@ -12,14 +12,14 @@
 <body>
     <div id="wrapper">
         <!-- 사이드 바 -->
-        <%@ include file="./Sidebar.jsp" %>
+        <%@ include file="../Sidebar.jsp" %>
 
         <!-- content wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
             <!-- main -->
             <div id="content">
                 <!-- Topbar -->
-                <%@ include file="./Topbar.jsp" %>
+                <%@ include file="../Topbar.jsp" %>
 
                 <!-- main 본문  -->
                 <div class="container-fluid">
@@ -149,7 +149,8 @@
                                                             <p class="font-weight-bold mb-4">◆ 추가
                                                                 연락처&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 <input type="checkbox" name="chk_info" value="email"">이메일&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input type=" checkbox" name="chk_info" value="homepage" checked="checked">홈페이지</p>
+                                                                <input type=" checkbox" name="chk_info"
+                                                                    value="homepage" checked="checked">홈페이지</p>
                                                         </div>
 
                                                         <!-- 기업에게 하고싶은말 -->
@@ -199,7 +200,7 @@
                 </div><!-- 끝 main 본문  -->
             </div><!-- 끝 main -->
             <!-- footer -->
-            <%@ include file="./Footer.jsp" %>
+            <%@ include file="../Footer.jsp" %>
         </div><!-- 끝 content wrapper -->
     </div><!-- 끝  wrapper -->
 </body>
