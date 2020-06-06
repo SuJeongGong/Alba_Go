@@ -83,7 +83,7 @@
                                             <th class="text-center">지역</th>
                                             <th class="text-center">급여</th>
                                             <th class="text-center">게재상태</th>
-                                            <th>지원여부</th>
+                                            <th style="width:9%">지원여부</th>
                                             <th class="text-center">마감일</th>
                                             <th class="text-center">메모</th>
                                         </tr>
@@ -104,7 +104,11 @@
                                             <td>
                                                 <a class="btn btn-info edit" href="path/to/settings"
                                                     aria-label="Settings">
-                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원하기</i>
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원</i>
+                                                </a>
+                                                <a class="btn btn-danger btn-xs" href="path/to/settings"
+                                                    aria-label="Settings">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
                                                 </a>
                                             </td>
                                             <td class="text-center">상시모집</td>
@@ -122,7 +126,11 @@
                                             <td>
                                                 <a class="btn btn-info edit" href="path/to/settings"
                                                     aria-label="Settings">
-                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원하기</i>
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원</i>
+                                                </a>
+                                                <a class="btn btn-danger btn-xs" href="path/to/settings"
+                                                    aria-label="Settings">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
                                                 </a>
                                             </td>
                                             <td class="text-center">상시모집</td>
@@ -140,7 +148,11 @@
                                             <td>
                                                 <a class="btn btn-info edit" href="path/to/settings"
                                                     aria-label="Settings">
-                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원하기</i>
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원</i>
+                                                </a>
+                                                <a class="btn btn-danger btn-xs" href="path/to/settings"
+                                                    aria-label="Settings">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
                                                 </a>
                                             </td>
                                             <td class="text-center">상시모집</td>
@@ -158,7 +170,11 @@
                                             <td>
                                                 <a class="btn btn-info edit" href="path/to/settings"
                                                     aria-label="Settings">
-                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원하기</i>
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원</i>
+                                                </a>
+                                                <a class="btn btn-danger btn-xs" href="path/to/settings"
+                                                    aria-label="Settings">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
                                                 </a>
                                             </td>
                                             <td class="text-center">상시모집</td>
@@ -176,7 +192,11 @@
                                             <td>
                                                 <a class="btn btn-info edit" href="path/to/settings"
                                                     aria-label="Settings">
-                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원하기</i>
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">지원</i>
+                                                </a>
+                                                <a class="btn btn-danger btn-xs" href="path/to/settings"
+                                                    aria-label="Settings">
+                                                    <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
                                                 </a>
                                             </td>
                                             <td class="text-center">상시모집</td>

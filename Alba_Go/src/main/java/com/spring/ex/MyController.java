@@ -31,33 +31,33 @@ public class MyController {
 	public String Account_enterprise() {
 		return "/Account_enterprise";
 	}
-	@RequestMapping("/Profile_writer")
-	public String Profile_writer() {
-		return "/Profile_writer";
+	@RequestMapping("/Talent/Profile_writer")
+	public String Talent_Profile_writer() {
+		return "/Talent/Profile_writer";
 	}
 	@RequestMapping("/PageSet")
 	public String PageSet() {
 		return "/PageSet";
 	}
-	@RequestMapping("/Profile_management")
-	public String Profile_management() {
-		return "/Profile_management";
+	@RequestMapping("/Talent/Profile_management")
+	public String Talent_Profile_management() {
+		return "/Talent/Profile_management";
 	}
-	@RequestMapping("/Talent_infomation")
-	public String Talent_infomation() {
-		return "/Talent_infomation";
+	@RequestMapping("/Talent/Talent_scrap")
+	public String Talent_Talent_scrap() {
+		return "/Talent/Talent_scrap";
 	}
-	@RequestMapping("/Talent_scrap")
-	public String Talent_scrap() {
-		return "/Talent_scrap";
+	@RequestMapping("/Talent/Human_resource_info")
+	public String Talent_Human_resource_info() {
+		return "/Talent/Human_resource_info";
 	}
-	@RequestMapping("/Human_resource_info")
-	public String Human_resource_info() {
-		return "/Human_resource_info";
+	@RequestMapping("/Talent/Support_status")
+	public String Talent_Support_status() {
+		return "/Talent/Support_status";
 	}
-	@RequestMapping("/Support_status")
-	public String Support_status() {
-		return "/Support_status";
+	@RequestMapping("/Talent/Human_resource_look")
+	public String Talent_Human_resource_look() {
+		return "/Talent/Human_resource_look";
 	}
 	
 }
