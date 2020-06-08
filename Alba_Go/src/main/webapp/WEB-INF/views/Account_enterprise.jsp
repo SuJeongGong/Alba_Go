@@ -59,7 +59,7 @@
 			</div><!-- 끝 main 본문  -->
    		</div><!-- 끝 main -->
    		<!-- footer -->
-		<%@ include file="./Footer.jsp" %>
+		<%@ include file="./footer.jsp" %>
    </div><!-- 끝 content wrapper -->
 </div><!-- 끝  wrapper -->
 </body>
