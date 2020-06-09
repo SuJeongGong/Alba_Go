@@ -26,7 +26,7 @@
           		</div>
 				<!-- main 본문을 한 줄로 묶기 -->
 				<div class="row" >
-					<form action="" class="col-xl-12" >
+					<form action="" class="col-xl-12" > m
 	               		<table class="table table-bordered ">
 	               			<tr>
 	               				<th>기업이름</th>
