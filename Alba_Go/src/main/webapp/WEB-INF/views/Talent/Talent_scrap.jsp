@@ -25,17 +25,16 @@
                 <div class="container-fluid">
                     <!-- main 본문을 한 줄로 묶기 -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">이력서 작성</h1>
+                        <h1 class="h3 mb-0 text-gray-800">스크랩 알바</h1>
                     </div>
                     <div class="row">
-                        <!--  실제 내용 삽입 -->
+                        <!--  실제 내용 삽입 -->1
 
                         <div class="container-fluid">
 
                             <!-- Page Heading -->
                             <!-- 페이지 해더 -->
                             <hr />
-                            <h1 class="h3 mb-2 text-gray-800">스크랩 알바</h1>
                             <h6 class="mb-4">최근 6개월 이내에 스크랩한 알바정보 입니다.</h6>
                             <h6 class="mb-4">상태 항목을 통해 해당 공고의 종료 및 진행중 여부를 확인하실 수 있습니다.</h6>
                             <h6 class="mb-4">스크랩한 채용정보는 등록일로부터 90일간 보관됩니다.</h6>
@@ -83,7 +82,7 @@
                                             <th class="text-center">지역</th>
                                             <th class="text-center">급여</th>
                                             <th class="text-center">게재상태</th>
-                                            <th style="width:9%">지원여부</th>
+                                            <th style="width:10%">지원여부</th>
                                             <th class="text-center">마감일</th>
                                             <th class="text-center">메모</th>
                                         </tr>
