@@ -31,5 +31,13 @@ public class MyController {
 	public String Account_enterprise() {
 		return "/Account_enterprise";
 	}
+	@RequestMapping("manager/manager_sidebar")
+	public String manager_manager_sidebar() {
+		return "manager/manager_sidebar";
+	}
+	@RequestMapping("Talent/Talent_scrap")
+	public String Talent_Talent_scrap() {
+		return "Talent/Talent_scrap";
+	}
 	
 }
