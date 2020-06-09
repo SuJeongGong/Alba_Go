@@ -6,7 +6,6 @@ public class Product {
 	String term;//상품기간
 	int price;//상품가격
 	
-	
 	public int getProduct_id() {
 		return Product_id;
 	}
