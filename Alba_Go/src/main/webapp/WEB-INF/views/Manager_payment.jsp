@@ -43,29 +43,50 @@
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h5 class="m-0 font-weight-bold text-primary" >기간</h5> 
-              <hr>
-              <input type="text" name="time">&nbsp;&nbsp; ~ &nbsp;&nbsp;<input type="text" name="time">
-              &emsp;
-              <input type="submit" value="오늘" class="btn py-1 px-1 btn-primary">
-              <input type="submit" value="1주일" class="btn py-1 px-1 btn-primary">
-              <input type="submit" value="1개월" class="btn py-1 px-1 btn-primary">
-              <hr>
-              
-              <h5 class="m-0 font-weight-bold text-primary" >검색</h5>
-              <hr>
-              <a>옵션</a>
-              &emsp;
-              <select name="">
-                <option value="1">플래티넘</option>
-                <option value="2">골드</option>
-              </select>
-              &emsp;
-              	<a>기업명</a>
-              	&emsp;
-              	<input type="text" name="time">
-              	&emsp;
-              <input type="submit" value="검색" class="btn py-1 px-1 btn-primary">
+            
+              <div class="row">
+                <div class="card col-xl-6 shadow mb-6">
+                  <div class="card-header py-4">
+                    <h5 class="m-0 font-weight-bold text-primary">기간</h5>
+                  </div>
+                  <div class="card-body">
+                    <table>
+
+                      <input type="text" name="time">&nbsp;&nbsp; ~ &nbsp;&nbsp;<input type="text" name="time">
+                      &emsp;
+                      <input type="submit" value="오늘" class="btn py-1 px-1 btn-primary">&nbsp;
+                      <input type="submit" value="1주일" class="btn py-1 px-1 btn-primary">&nbsp;
+                      <input type="submit" value="1개월" class="btn py-1 px-1 btn-primary">
+                  
+
+                    </table>
+                  </div>
+                </div>
+                <div class="card col-xl-6 shadow mb-6">
+                  <div class="card-header py-4">
+                    <h5 class="m-0 font-weight-bold text-primary">검색</h5>
+                  </div>
+                  <div class="card-body">
+                    <table>
+                     <a>옵션</a>
+                      &emsp;
+                      <select name="">
+                        <option value="1">플래티넘</option>
+                        <option value="2">골드</option>
+                      </select>
+                      &emsp;
+                        <a>기업명</a>
+                        &emsp;
+                        <input type="text" name="time">
+                        &emsp;
+                      <input type="submit" value="검색" class="btn py-1 px-1 btn-primary">
+                    </div>
+                    
+                    </table>
+                  </div>
+                </div>
+              </div>
+                   
             </div>
         
             <div class="card-body">

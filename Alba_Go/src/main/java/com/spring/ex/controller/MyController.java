@@ -46,13 +46,17 @@ public class MyController {
 	public String Review_write() {
 		return "/Review_write";
 	}
-	@RequestMapping("/Manager_human_info")
-	public String Manager_human_info() {
-		return "/Manager_human_info";
-	}
 	@RequestMapping("/Manager_reviewlist")
 	public String Manager_reviewlist() {
 		return "/Manager_reviewlist";
+	}
+	@RequestMapping("/Manager_Account_enterprise_list")
+	public String Manager_Account_enterprise_list() {
+		return "/Manager_Account_enterprise_list";
+	}
+	@RequestMapping("/Manager_Account_Individual_list")
+	public String Manager_Account_Individual_list() {
+		return "/Manager_Account_Individual_list";
 	}
 	@RequestMapping("/Manager_payment")
 	public String Manager_payment() {
