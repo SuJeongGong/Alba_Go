@@ -13,5 +13,9 @@ public class MyController {
 	public String test() {
 		return "/test";
 	}
+	@RequestMapping("/Sidebar")
+	public String Sidebar() {
+		return "/Sidebar";
+	}
 	
 }
