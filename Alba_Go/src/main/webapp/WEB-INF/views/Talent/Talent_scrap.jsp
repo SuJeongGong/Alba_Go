@@ -3,23 +3,24 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-    <meta charset="UTF-8">
-    <title>개인 스크랩</title>
+<meta charset="UTF-8">
+<title>개인스크랩</title>
 </head>
-
 <body>
-    <div id="wrapper">
-        <!-- 사이드 바 -->
-        <%@ include file="../Sidebar.jsp" %>
-
-        <!-- content wrapper -->
-        <div id="content-wrapper" class="d-flex flex-column">
-            <!-- main -->
-            <div id="content">
-                <!-- Topbar -->
-                <%@ include file="../Topbar.jsp" %>
+<div id="wrapper">
+   <!-- 사이드 바 -->
+   <%@ include file="../Sidebar.jsp" %>
+   
+   <!-- content wrapper -->
+   <div id="content-wrapper" class="d-flex flex-column">
+      <!-- main -->
+         <div id ="content">
+            <!-- Topbar -->
+         <%@ include file="../Topbar.jsp" %>
+         
+         <!-- main 본문  -->
+         <div class="container-fluid">
 
                 <!-- main 본문  -->
                 <div class="container-fluid">
@@ -28,7 +29,7 @@
                         <h1 class="h3 mb-0 text-gray-800">스크랩 알바</h1>
                     </div>
                     <div class="row">
-                        <!--  실제 내용 삽입 -->1
+                        <!--  실제 내용 삽입 -->
 
                         <div class="container-fluid">
 
@@ -210,12 +211,11 @@
 
 
                     </div><!-- 끝 실제 내용 삽입 -->
-                </div><!-- 끝 main 본문  -->
-            </div><!-- 끝 main -->
-            <!-- footer -->
-            <%@ include file="../footer.jsp" %>
-        </div><!-- 끝 content wrapper -->
-    </div><!-- 끝  wrapper -->
+               </div><!-- 끝 main 본문  -->
+         </div><!-- 끝 main -->
+         <!-- footer -->
+      <%@ include file="../footer.jsp" %>
+   </div><!-- 끝 content wrapper -->
+</div><!-- 끝  wrapper -->
 </body>
-
 </html>

@@ -149,7 +149,7 @@
                                                             <p class="font-weight-bold mb-4">◆ 추가
                                                                 연락처&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                                 <input type="checkbox" name="chk_info" value="email"">이메일&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                                <input type=" checkbox" name="chk_info"
+                                                                <input type="checkbox" name="chk_info"
                                                                     value="homepage" checked="checked">홈페이지</p>
                                                         </div>
 

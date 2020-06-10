@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>이력서 작성</title>
+    <title>my page</title>
 </head>
 
 <body>
@@ -23,18 +23,11 @@
 
                 <!-- main 본문  -->
                 <div class="container-fluid">
-                    <!-- main 본문을 한 줄로 묶기 -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">이력서 작성</h1>
-                    </div>
-                    <div class="row">
-                        <!--  실제 내용 삽입 -->
 
 
 
 
 
-                    </div><!-- 끝 실제 내용 삽입 -->
                 </div><!-- 끝 main 본문  -->
             </div><!-- 끝 main -->
             <!-- footer -->
