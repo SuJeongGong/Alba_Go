@@ -31,5 +31,9 @@ public class MyController {
 	public String Account_enterprise() {
 		return "/Account_enterprise";
 	}
+	@RequestMapping("/Announcement_list")
+	public String Announcement_list() {
+		return "/Announcement_list";
+	}
 	
 }
