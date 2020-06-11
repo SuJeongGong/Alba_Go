@@ -35,5 +35,13 @@ public class MyController {
 	public String login() {
 		return "/login";
 	}
+	@RequestMapping("/Announcement_list")
+	public String Announcement_list() {
+		return "/Announcement_list";
+	}
+	@RequestMapping("/new")
+	public String newd() {
+		return "/new";
+	}
 	
 }
