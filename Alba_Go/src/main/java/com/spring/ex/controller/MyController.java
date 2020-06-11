@@ -55,6 +55,18 @@ public class MyController {
 	public String NewFile() {
 		return "/NewFile";
 	}
+	@RequestMapping("/sign_up")
+	public String sign_up() {
+		return "/sign_up";
+	}
+	@RequestMapping("/find_id")
+	public String find_id() {
+		return "/find_id";
+	}
+	@RequestMapping("/find_pw")
+	public String find_pw() {
+		return "/find_pw";
+	}
 	@RequestMapping("/manager/manager_enterprise_search")
 	public String manager_manager_enterprise_search() {
 		return "/manager/manager_enterprise_search";
