@@ -39,10 +39,6 @@ public class MyController {
 	public String manager_manager_Sidebar() {
 		return "manager/manager_Sidebar";
 	}
-	@RequestMapping("/manager/manager_individual_search")
-	public String manager_manager_individual_search() {
-		return "/manager/manager_individual_search";
-	}
 	@RequestMapping("/Talent/Talent_scrap")
 	public String Talent_Talent_scrap() {
 		return "/Talent/Talent_scrap";
@@ -58,6 +54,22 @@ public class MyController {
 	@RequestMapping("/NewFile")
 	public String NewFile() {
 		return "/NewFile";
+	}
+	@RequestMapping("/manager/manager_enterprise_search")
+	public String manager_manager_enterprise_search() {
+		return "/manager/manager_enterprise_search";
+	}
+	@RequestMapping("/manager/manager_individual_search")
+	public String manager_manager_individual_search() {
+		return "/manager/manager_individual_search";
+	}
+	@RequestMapping("/manager/manager_main")
+	public String manager_manager_main() {
+		return "/manager/manager_main";
+	}
+	@RequestMapping("/manager/manager_product_management")
+	public String manager_manager_product_management() {
+		return "/manager/manager_product_management";
 	}
 	
 }

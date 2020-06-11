@@ -26,135 +26,137 @@
 
 
 
-            <hr />
-          <h1 class="h3 mb-2 text-gray-800">개인 검색</h1>
-          <hr />
+                    <hr />
+                    <h1 class="h3 mb-2 text-gray-800">개인 검색</h1>
+                    <hr />
 
-            <div class="row">
-                <div class="col-md-12">
-                    <form action="#" method="get">
-                        <div class="input-group">
-                            <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
-                            <input class="form-control" id="system-search" name="q" placeholder="Search for" required>
-                            <span class="input-group-btn">
-                                <button type="submit" class="btn btn-info">검색</button>
-                            </span>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="#" method="get">
+                                <div class="input-group">
+                                    <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                                    <input class="form-control" id="system-search" name="q" placeholder="Search for"
+                                        required>
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-info">검색</button>
+                                    </span>
+                                </div>
+                            </form>
                         </div>
-                    </form>
-                </div>
-                <div class="col-md-12">
-                 <table class="table table-list-search">
-                            <thead>
-                                <tr>
-                                    <th>회원이름</th>
-                                    <th>전화번호</th>
-                                    <th>이메일</th>
-                                    <th>주소</th>
-                                    <th>Entry</th>
-                                    <th>Entry</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Sample</td>
-                                    <td>Filter</td>
-                                    <td>12-11-2011 11:11</td>
-                                    <td>OK</td>
-                                    <td>123</td>
-                                    <td>Do some other</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>Try</td>
-                                    <td>It</td>
-                                    <td>11-20-2013 08:56</td>
-                                    <td>It</td>
-                                    <td>Works</td>
-                                    <td>Do some FILTERME</td>
-                                </tr>
-                                <tr>
-                                    <td>§</td>
-                                    <td>$</td>
-                                    <td>%</td>
-                                    <td>&</td>
-                                    <td>/</td>
-                                    <td>!</td>
-                                </tr>
-                            </tbody>
-                        </table>   
-                </div>
+                        <div class="col-md-12">
+                            <table class="table table-list-search">
+                                <thead>
+                                    <tr>
+                                        <th>회원이름</th>
+                                        <th>전화번호</th>
+                                        <th>이메일</th>
+                                        <th>주소</th>
+                                        <th>Entry</th>
+                                        <th>Entry</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sample</td>
+                                        <td>Filter</td>
+                                        <td>12-11-2011 11:11</td>
+                                        <td>OK</td>
+                                        <td>123</td>
+                                        <td>Do some other</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Try</td>
+                                        <td>It</td>
+                                        <td>11-20-2013 08:56</td>
+                                        <td>It</td>
+                                        <td>Works</td>
+                                        <td>Do some FILTERME</td>
+                                    </tr>
+                                    <tr>
+                                        <td>§</td>
+                                        <td>$</td>
+                                        <td>%</td>
+                                        <td>&</td>
+                                        <td>/</td>
+                                        <td>!</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-                  <div class="text-center" style="float: left;">
-                    <ul class="pagination">
-                      <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                      </li>
-                      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
-                      <li class="page-item"><a class="page-link" href="#">2 </a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">4</a></li>
-                      <li class="page-item"><a class="page-link" href="#">5</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
+                        <div class="text-center" style="float: left;">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                <li class="page-item active" aria-current="page"><a class="page-link" href="#">1 <span
+                                            class="sr-only">(current)</span></a></li>
+                                <li class="page-item"><a class="page-link" href="#">2 </a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
 
                 </div><!-- 끝 main 본문  -->
