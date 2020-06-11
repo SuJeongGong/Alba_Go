@@ -39,17 +39,38 @@
 
  <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">공고글 관리</h1>
-          
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <div class="row">
-                <div class="card col-xl-6 shadow mb-6">
+                <div class="card col-xl-12 shadow mb-6">
                   <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">지역</h5>
+                    <h5 class="m-0 font-weight-bold text-primary">검색</h5>
                   </div>
                   <div class="card-body">
                     <table>
+                   	업직종
+                   	&nbsp;
+                    <select name="">
+                    	<option value="0">전체</option>
+                    	<option value="1">외식/음료</option>
+                        <option value="2">외식/음료</option>
+                        <option value="3">유통/판매</option>
+                        <option value="4">문화/여가/생활</option>
+                        <option value="5">서비스</option>
+                        <option value="6">사무직</option>
+                        <option value="7">고객상담/리서치</option>
+                        <option value="8">생산/건설/노무</option>
+                        <option value="9">교육/강사</option>
+                        <option value="10">디자인</option>
+                        <option value="11">미디어</option>
+                        <option value="12">운전/배달</option>
+                        <option value="13">병원/간호/연구</option>
+                        <option value="14">IT/컴퓨터</option>
+                      </select>
+                      &emsp;
+                                       지역
+                      &nbsp;
                       <select name="">
                         <option value="0">전국</option>
                         <option value="1">서울</option>
@@ -70,164 +91,142 @@
                         <option value="13">제주</option>
                       </select>
                       &emsp;
-                      <input type="text" name="time">
-                     
-                    </div>
-                    
-                    </table>
-                  </div>
-                </div>
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">업직종</h5>
-                  </div>
-                  <div class="card-body">
-                    <table>
-                      <select name="">
-                        <option value="1">외식/음료</option>
-                        <option value="2">유통/판매</option>
-                        <option value="3">문화/여가/생활</option>
-                        <option value="4">서비스</option>
-                        <option value="5">사무직</option>
-                        <option value="6">고객상담/리서치</option>
-                        <option value="7">생산/건설/노무</option>
-                        <option value="8">교육/강사</option>
-                        <option value="9">디자인</option>
-                        <option value="10">미디어</option>
-                        <option value="11">운전/배달</option>
-                        <option value="12">병원/간호/연구</option>
-                        <option value="13">IT/컴퓨터</option>
-                      </select>
-                      &emsp;
-                      <input type="text" name="time">
-                     
-                    </div>
-                    
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">기간</h5>
-                  </div>
-                  <div class="card-body">
-                    <table>
-
+                      
+                                       작성일자
+                      &nbsp;
                       <input type="text" name="time">&nbsp;&nbsp; ~ &nbsp;&nbsp;<input type="text" name="time">
                       &emsp;
                       <input type="submit" value="오늘" class="btn py-1 px-1 btn-primary">&nbsp;
                       <input type="submit" value="1주일" class="btn py-1 px-1 btn-primary">&nbsp;
                       <input type="submit" value="1개월" class="btn py-1 px-1 btn-primary">
-                  
-
+                      </table>
+                      &emsp;
+                      <hr>
+                                       고용형태
+                      &emsp;
+                      <table>
+                      <input type = "checkbox" name = "Employment" value = "football">알바
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">정규직
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">계약직
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">파견직
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">청년인턴직
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">위촉직
+                      &emsp;
+                      <input type = "checkbox" name = "Employment" value = "football">연수생/교육생
                     </table>
-                  </div>
-                </div>
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">검색</h5>
-                  </div>
-                  <div class="card-body">
+                    <hr>
+                                   근무기간
+                    &emsp;
                     <table>
-                      <select name="">
-                        <option value="1">제목</option>
-                        <option value="2">작성자</option>
+                    <input type = "radio" name = "term" value = "football">1주일 이하
+                      &emsp;
+                      <input type = "radio" name = "term" value = "football">1개월
+                      &emsp;
+                      <input type = "radio" name = "term" value = "football">3개월~6개월
+                      &emsp;
+                      <input type = "radio" name = "term" value = "football">6개월~1년
+                      &emsp;
+                      <input type = "radio" name = "term" value = "football">1년이상
+                      &emsp;
+                      <input type = "radio" name = "term" value = "football">기간협의
+                      </table>
+                      <hr>
+                                       근무요일
+                      &emsp;
+                      <table>
+                      <input type = "checkbox" name = "day" value = "football">월
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">화
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">수
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">목
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">금
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">토
+                      &emsp;
+                      <input type = "checkbox" name = "day" value = "football">일
+                      </table>
+                      <hr>
+                     <select name="">
+                        <option value="0">전체</option>
+                        <option value="1">작성자</option>
+                        <option value="2">제목</option>
                       </select>
                       &emsp;
                       <input type="text" name="time">
                       &emsp;
                       <input type="submit" value="검색" class="btn py-1 px-1 btn-primary">
-                    </div>
-                    
+      
                     </table>
                   </div>
                 </div>
-              </div>
-            </div>
+         
+                
+               
         
             <div class="card-body">
                
                <br/>
                <br/>
-               <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>작성일</th>
-                      <th>제목</th>
-                      <th>작성자</th>
-                      <th>관리</th>
-                    </tr>
-                  </thead>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>  
-                </table>
+               <div class="tab-content">
+            <div class="tab-pane fade show active" id="all_list">
+              <table class="table  table-bordered ">
+
+                <thead>
+                  <tr>
+                    <th> <input type="checkbox" name="Chk_choice" id="chk"> </th>
+                    <th>공고 번호 작성일</th>
+                    <th>알바공고</th>
+                    <th>모집현황</th>
+                    <th>지원자관리</th>
+                    <th>유료서비스</th>
+                    <th>관리</th>
+
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="checkbox" name="Chk_choice" id="chk"> </td>
+                    <td>2020-05-30</td>
+                    <td>맥도날드</td>
+                    <td>데이터3</td>
+                    <td>무료</td>
+                    <td>데이터5</td>
+                    <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+
+
+
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name="Chk_choice" id="chk"> </td>
+                    <td>2020-05-30</td>
+                    <td>데이터2</td>
+                    <td>데이터3</td>
+                    <td>데이터4</td>
+                    <td>데이터5</td>
+                    <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name="Chk_choice" id="chk"> </td>
+                    <td>2020-05-30</td>
+                    <td>데이터2</td>
+                    <td>데이터3</td>
+                    <td>데이터4</td>
+                    <td>데이터5</td>
+                    <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                  </tr>
+
+                </tbody>
+              </table>
+
                </div>
                <br/>
                <hr>

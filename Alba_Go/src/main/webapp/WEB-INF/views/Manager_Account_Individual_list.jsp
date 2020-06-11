@@ -44,12 +44,34 @@
           <div class="card shadow mb-4">
             <div class="card-header py-3">
               <div class="row">
-                <div class="card col-xl-6 shadow mb-6">
+                <div class="card col-xl-12 shadow mb-6">
                   <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">지역</h5>
+                    <h5 class="m-0 font-weight-bold text-primary">검색</h5>
                   </div>
                   <div class="card-body">
                     <table>
+                   	업직종
+                   	&nbsp;
+                    <select name="">
+                    	<option value="0">전체</option>
+                    	<option value="1">외식/음료</option>
+                        <option value="2">외식/음료</option>
+                        <option value="3">유통/판매</option>
+                        <option value="4">문화/여가/생활</option>
+                        <option value="5">서비스</option>
+                        <option value="6">사무직</option>
+                        <option value="7">고객상담/리서치</option>
+                        <option value="8">생산/건설/노무</option>
+                        <option value="9">교육/강사</option>
+                        <option value="10">디자인</option>
+                        <option value="11">미디어</option>
+                        <option value="12">운전/배달</option>
+                        <option value="13">병원/간호/연구</option>
+                        <option value="14">IT/컴퓨터</option>
+                      </select>
+                      &emsp;
+                                       지역
+                      &nbsp;
                       <select name="">
                         <option value="0">전국</option>
                         <option value="1">서울</option>
@@ -70,164 +92,171 @@
                         <option value="13">제주</option>
                       </select>
                       &emsp;
-                      <input type="text" name="time">
-                     
-                    </div>
-                    
-                    </table>
-                  </div>
-                </div>
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">업직종</h5>
-                  </div>
-                  <div class="card-body">
-                    <table>
+                                       성별
+                      &nbsp;
                       <select name="">
-                        <option value="1">외식/음료</option>
-                        <option value="2">유통/판매</option>
-                        <option value="3">문화/여가/생활</option>
-                        <option value="4">서비스</option>
-                        <option value="5">사무직</option>
-                        <option value="6">고객상담/리서치</option>
-                        <option value="7">생산/건설/노무</option>
-                        <option value="8">교육/강사</option>
-                        <option value="9">디자인</option>
-                        <option value="10">미디어</option>
-                        <option value="11">운전/배달</option>
-                        <option value="12">병원/간호/연구</option>
-                        <option value="13">IT/컴퓨터</option>
+                        <option value="0">무관</option>
+                        <option value="1">남자</option>
+                        <option value="2">여자</option>
                       </select>
                       &emsp;
-                      <input type="text" name="time">
-                     
-                    </div>
-                    
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">기간</h5>
-                  </div>
-                  <div class="card-body">
-                    <table>
-
+                                      학력
+                      &nbsp;      
+                      <select name="">
+                        <option value="0">초등학교 졸업</option>
+                        <option value="1">중학교 졸업</option>
+                        <option value="2">고등학교 졸업</option>
+                        <option value="3">대학교(2, 3년) 졸업</option>
+                        <option value="4">대학교(4년) 졸업</option>
+                        <option value="5">대학원 졸업</option>
+                      </select>
+                      &emsp;
+                                       작성일자
+                      &nbsp;
                       <input type="text" name="time">&nbsp;&nbsp; ~ &nbsp;&nbsp;<input type="text" name="time">
                       &emsp;
                       <input type="submit" value="오늘" class="btn py-1 px-1 btn-primary">&nbsp;
                       <input type="submit" value="1주일" class="btn py-1 px-1 btn-primary">&nbsp;
                       <input type="submit" value="1개월" class="btn py-1 px-1 btn-primary">
-                  
-
-                    </table>
-                  </div>
-                </div>
-                <div class="card col-xl-6 shadow mb-6">
-                  <div class="card-header py-3">
-                    <h5 class="m-0 font-weight-bold text-primary">검색</h5>
-                  </div>
-                  <div class="card-body">
-                    <table>
-                      <select name="">
-                        <option value="1">제목</option>
-                        <option value="2">작성자</option>
+                      &emsp;
+                      <hr>
+                     <select name="">
+                        <option value="0">전체</option>
+                        <option value="1">작성자</option>
+                        <option value="2">제목</option>
                       </select>
                       &emsp;
                       <input type="text" name="time">
                       &emsp;
                       <input type="submit" value="검색" class="btn py-1 px-1 btn-primary">
-                    </div>
-                    
+      
                     </table>
                   </div>
                 </div>
-              </div>
-            </div>
+                
+                
+              
+               
         
             <div class="card-body">
                
                <br/>
                <br/>
                <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                  <thead>
-                    <tr>
-                      <th>작성일</th>
-                      <th>제목</th>
-                      <th>작성자</th>
-                      <th>관리</th>
-                    </tr>
-                  </thead>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>
-                    <tr>
-                      <td>2020-06-09</td>
-                      <td>후기이</td>
-                      <td>송원준</td>
-                      <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
-                    </tr>  
-                </table>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th>이름</th>
+                        <th>이력서제목</th>
+                        <th>경력,자격증</th>
+                        <th>희망지역</th>
+                        <th>조회수</th>
+                        <th>관리</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>믿음직하고 끈기 있는 알바생입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>유통점 마트 경력 있는 준비된 인재.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>몸도 마음도 건강한 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>밝은 미소와 긍정적 마인드를 가진 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>센스있고 적응력 좋은 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>강인한 체력으로 무장한 믿음직한 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>맡은 일에 최선을 다하는 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>센스있고 적응력 좋은 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>밝은 미소와 긍정적 마인드를 가진 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          임OO<small>(남/24세)</small>
+                        </td>
+                        <td>강인한 체력으로 무장한 믿음직한 인재입니다.</td>
+                        <td>경력 : 신입</td>
+                        <td>경기 고양시</td>
+                        <td>12</td>
+                        <td><input type="submit" value="삭제" class="btn py-1 px-1 btn-danger"></td>
+                      </tr>
+                    </tbody>
+                  </table>
                </div>
                <br/>
                <hr>
