@@ -176,8 +176,6 @@
                                                 <div class="row p-5">
                                                     <div class="pull">
                                                         <div class="btn-group">
-                                                            <button type="button" class="btn btn-warning btn-filter"
-                                                                data-target="temporary">임시저장</button>
                                                             <button type="button" class="btn btn-success btn-filter"
                                                                 data-target="save">저장</button>
                                                         </div>

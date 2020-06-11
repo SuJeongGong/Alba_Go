@@ -159,30 +159,27 @@
                                                     class="btn btn-sm btn-primary btn-cancel">지원취소</button></td>
                                         </tr>
 
-                                        <!-- 11 -->
-                                        <tr>
-                                            <td>2008-12-19</td>
-                                            <td><a href="#">버거킹</a></td>
-                                            <td>온라인지원</td>
-                                            <td>미열람</td>
-                                            <td>마감</td>
-                                            <td><button type="submit"
-                                                    class="btn btn-sm btn-primary btn-cancel">지원취소</button></td>
-                                        </tr>
-
-                                        <!-- 12 -->
-                                        <tr>
-                                            <td>2008-12-19</td>
-                                            <td><a href="#">버거킹</a></td>
-                                            <td>온라인지원</td>
-                                            <td>미열람</td>
-                                            <td>마감</td>
-                                            <td><button type="submit"
-                                                    class="btn btn-sm btn-primary btn-cancel">지원취소</button></td>
-                                        </tr>
-
                                     </tbody>
                                 </table>
+
+                                <div class="text-center" style="float: left;">
+                                    <ul class="pagination">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1"
+                                                aria-disabled="true">Previous</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item active" aria-current="page">
+                                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#">Next</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
 

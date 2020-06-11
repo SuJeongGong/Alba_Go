@@ -35,25 +35,29 @@ public class MyController {
 	public String Account_enterprise() {
 		return "/Account_enterprise";
 	}
-	@RequestMapping("/manager/manager_Sidebar")
-	public String manager_manager_Sidebar() {
-		return "manager/manager_Sidebar";
+	@RequestMapping("/Talent/Human_resource_info")
+	public String Talent_Human_resource_info() {
+		return "/Talent/Human_resource_info";
 	}
-	@RequestMapping("/Talent/Talent_scrap")
-	public String Talent_Talent_scrap() {
-		return "/Talent/Talent_scrap";
+	@RequestMapping("/Talent/Human_resource_look")
+	public String Talent_Human_resource_look() {
+		return "/Talent/Human_resource_look";
+	}
+	@RequestMapping("/Talent/Profile_management")
+	public String Talent_Profile_management() {
+		return "/Talent/Profile_management";
 	}
 	@RequestMapping("/Talent/Profile_writer")
 	public String Talent_Profile_writer() {
 		return "/Talent/Profile_writer";
 	}
-	@RequestMapping("/PageSet")
-	public String PageSet() {
-		return "/PageSet";
+	@RequestMapping("/Talent/Support_status")
+	public String Talent_Support_status() {
+		return "/Talent/Support_status";
 	}
-	@RequestMapping("/NewFile")
-	public String NewFile() {
-		return "/NewFile";
+	@RequestMapping("/Talent/Talent_scrap")
+	public String Talent_Talent_scrap() {
+		return "/Talent/Talent_scrap";
 	}
 	@RequestMapping("/sign_up")
 	public String sign_up() {

@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>my page</title>
+    <title>상품관리</title>
 </head>
 
 <body>
@@ -32,8 +32,9 @@
                                     class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">아이템(UP)</span>
                                 <div class="bg-transparent card-header pt-4 border-0">
                                     <h1 class="h4 font-weight-normal text-primary text-center mb-0"
-                                        data-pricing-value="15"><span class="price">300,000원</span><span
-                                            class="h6 text-muted ml-2">/ +5개</span></h1>
+                                        data-pricing-value="15"><input type="text" placeholder="300,0000"
+                                            size="7"></input>원
+                                        <span class="h6 text-muted ml-2">/+5개</span></h1>
                                 </div>
                                 <div class="card-body pt-0">
                                     <ul class="list-unstyled mb-4">
@@ -41,7 +42,7 @@
                                             placeholder="게시판 글을 상단에 위치하게끔 하는 아이템 입니다."></textarea>
                                     </ul>
                                     <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
-                                        <i class="fa fa-pencil-square-o" aria-hidden="true">저장</i>
+                                        <i class="fa fa-pencil-square-o" aria-hidden="true">수정</i>
                                     </a>
                                     <a class="btn btn-danger btn-xs" href="path/to/settings" aria-label="Settings">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
@@ -54,8 +55,9 @@
                                     갯수</span>
                                 <div class="bg-transparent card-header pt-4 border-0">
                                     <h1 class="h4 font-weight-normal text-primary text-center mb-0"
-                                        data-pricing-value="30"><span class="price">300,000원</span><span
-                                            class="h6 text-muted ml-2">/ +5개</span></h1>
+                                        data-pricing-value="30"><input type="text" placeholder="300,0000"
+                                            size="7"></input>원
+                                        <span class="h6 text-muted ml-2">/+5개</span></h1>
                                 </div>
                                 <div class="card-body pt-0">
                                     <ul class="list-unstyled mb-4">
@@ -63,7 +65,7 @@
                                             placeholder="한정적인 게시글을 더 쓸 수 있는 아이템입니다."></textarea>
                                     </ul>
                                     <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
-                                        <i class="fa fa-pencil-square-o" aria-hidden="true">저장</i>
+                                        <i class="fa fa-pencil-square-o" aria-hidden="true">수정</i>
                                     </a>
                                     <a class="btn btn-danger btn-xs" href="path/to/settings" aria-label="Settings">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
@@ -77,7 +79,7 @@
                                 <div class="bg-transparent card-header pt-4 border-0">
                                     <h1 class="h4 font-weight-normal text-primary text-center mb-0"
                                         data-pricing-value="45">
-                                        <input type="text" placeholder="30,0000" size="6"></input>원
+                                        <input type="text" placeholder="300,0000" size="7"></input>원
                                         <span class="h6 text-muted ml-2">/+5개</span></h1>
                                 </div>
                                 <div class="card-body pt-0">
@@ -86,7 +88,7 @@
                                             placeholder="기업에 맞는 이력서를 편하게 열람할 수 있는 아이템입니다."></textarea>
                                     </ul>
                                     <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
-                                        <i class="fa fa-pencil-square-o" aria-hidden="true">저장</i>
+                                        <i class="fa fa-pencil-square-o" aria-hidden="true">수정</i>
                                     </a>
                                     <a class="btn btn-danger btn-xs" href="path/to/settings" aria-label="Settings">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>
@@ -98,7 +100,9 @@
                                     class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">광고배너</span>
                                 <div class="bg-transparent card-header pt-4 border-0">
                                     <h1 class="h4 font-weight-normal text-primary text-center mb-0"
-                                        data-pricing-value="60"><span class="price">300,000원</span></h1>
+                                        data-pricing-value="60"><input type="text" placeholder="300,0000"
+                                            size="7"></input>원
+                                        <span class="h6 text-muted ml-2">/+5개</span></h1>
                                 </div>
                                 <div class="card-body pt-0">
                                     <ul class="list-unstyled mb-4">
@@ -106,7 +110,7 @@
                                             placeholder="배너를 메인에 위치하는 아이템입니다."></textarea>
                                     </ul>
                                     <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
-                                        <i class="fa fa-pencil-square-o" aria-hidden="true">저장</i>
+                                        <i class="fa fa-pencil-square-o" aria-hidden="true">수정</i>
                                     </a>
                                     <a class="btn btn-danger btn-xs" href="path/to/settings" aria-label="Settings">
                                         <i class="fa fa-pencil-square-o" aria-hidden="true">삭제</i>

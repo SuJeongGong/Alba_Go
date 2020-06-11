@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>my page</title>
+    <title>개인검색</title>
 </head>
 
 <body>
@@ -35,6 +35,14 @@
                             <form action="#" method="get">
                                 <div class="input-group">
                                     <!-- USE TWITTER TYPEAHEAD JSON WITH API TO SEARCH -->
+                                    <form>
+                                        <select name="search">
+                                            <option value="name">회원이름</option>
+                                            <option value="phone">회원전화번호</option>
+                                            <option value="email">회원이메일</option>
+                                            <option value="address">회원주소</option>
+                                        </select>
+                                    </form>
                                     <input class="form-control" id="system-search" name="q" placeholder="Search for"
                                         required>
                                     <span class="input-group-btn">
@@ -51,90 +59,68 @@
                                         <th>전화번호</th>
                                         <th>이메일</th>
                                         <th>주소</th>
-                                        <th>Entry</th>
-                                        <th>Entry</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Sample</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>Filter</td>
                                         <td>12-11-2011 11:11</td>
                                         <td>OK</td>
-                                        <td>123</td>
-                                        <td>Do some other</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>Try</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>It</td>
                                         <td>11-20-2013 08:56</td>
                                         <td>It</td>
-                                        <td>Works</td>
-                                        <td>Do some FILTERME</td>
                                     </tr>
                                     <tr>
-                                        <td>§</td>
+                                        <td><a href="#">Sample</a></td>
                                         <td>$</td>
                                         <td>%</td>
                                         <td>&</td>
-                                        <td>/</td>
-                                        <td>!</td>
                                     </tr>
                                 </tbody>
                             </table>
