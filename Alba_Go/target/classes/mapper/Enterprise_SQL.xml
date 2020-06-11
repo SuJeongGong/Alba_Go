@@ -3,8 +3,10 @@
 
 <mapper namespace="com.spring.ex.dao.EnterpriseDAO">
 
-	<select id="selectNow" resultType="Product">
-		SELECT NOW();
+	<select id="selectNow" resultType="Product" parameterType="hashmap">
+		select * from enterprise where enterprise_id=#{param1} and price=#{param2};
 	</select>
+	
+	
 
 </mapper>
