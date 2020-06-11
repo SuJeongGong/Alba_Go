@@ -46,7 +46,7 @@
 
                     <div class="form-group text-center">
                         <button type="submit" id="join-submit" class="btn btn-primary">
-                            로그인<i class="fa fa-check spaceLeft"></i>
+                           		 로그인<i class="fa fa-check spaceLeft"></i>
                         </button>
 
                     </div>
