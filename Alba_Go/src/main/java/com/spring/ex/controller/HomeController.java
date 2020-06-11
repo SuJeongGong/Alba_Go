@@ -17,17 +17,17 @@ import com.spring.ex.dao.EnterpriseDAO;
 @Controller
 public class HomeController {
 	
-	@Autowired
-	EnterpriseDAO enterpriseDAO;
-
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Model model) {
-		HashMap<String, Object> map = new HashMap<String, Object>(){{
-			put("param1", 1);
-			put("param2", "dlwodyd");
-		}};
-		System.out.println(enterpriseDAO.selectNow(map));
-		return "home";
-	}
+//	@Autowired
+//	EnterpriseDAO enterpriseDAO;
+//
+//	@RequestMapping(value = "/", method = RequestMethod.GET)
+//	public String home(Model model) {
+//		HashMap<String, Object> map = new HashMap<String, Object>(){{
+//			put("param1", 1);
+//			put("param2", "dlwodyd");
+//		}};
+//		System.out.println(enterpriseDAO.selectNow(map));
+//		return "home";
+//	}
 	
 }

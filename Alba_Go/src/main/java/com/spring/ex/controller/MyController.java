@@ -19,17 +19,9 @@ public class MyController {
 		return "/Mypage_Individual";
 	}
 	
-	@RequestMapping("/Mypage_enterprise")
-	public String Mypage_enterprise() {
-		return "/Mypage_enterprise";
-	}
 	@RequestMapping("/Account_Individual")
 	public String Account_Individual() {
 		return "/Account_Individual";
-	}
-	@RequestMapping("/Account_enterprise")
-	public String Account_enterprise() {
-		return "/Account_enterprise";
 	}
 	
 }
