@@ -30,6 +30,10 @@ public class MyController {
 	@RequestMapping("/Account_enterprise")
 	public String Account_enterprise() {
 		return "/Account_enterprise";
+		
+	}	@RequestMapping("/login")
+	public String login() {
+		return "/login";
 	}
 	
 }
